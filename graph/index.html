@@ -1,0 +1,38 @@
+<html lan="en">
+	<head>
+		<title>Graph</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" media="screen" herf="screen.css" />
+
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css" />
+
+		 <!-- Angular Material requires Angular.js Libraries -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+	  <!-- Angular Material Library -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+	  <script src="site.js"></script>
+	</head>
+	<body ng-app="myApp">
+		<div ng-controller="AppCtrl" class="md-padding" ng-cloak>
+		  <div>
+		    <fieldset class="standard">
+		      <legend>Using &lt;ng-model&gt;</legend>
+		      <div layout-wrap layout-gt-sm="row" >
+		        <div flex-gt-sm="50">
+		          <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
+		            Checkbox 1: {{ data.cb1 }}
+		          </md-checkbox>
+		        </div>		        
+		      </div>
+		    </fieldset>
+		  </div>
+		</div>	
+		
+	</body>
+</html>
