@@ -28,17 +28,13 @@
 		  <div>
 		    <fieldset class="standard">
 		      <legend> Growth Charts</legend>
-
-
-
-	<div id="line_top_x"></div>
+					<div id="line_top_x"></div>
 
 					<div layout-wrap layout-gt-sm="row" >
 		        <div flex-gt-sm="50">
 		          <md-checkbox ng-model="data.cb1" aria-label="Weight"
 		          	ng-true-value="'show graph'" ng-false-value="'disappear graph'">
-		            Weight: {{ data.cb1 }}
- 	
+		            Weight: {{ data.cb1 }} 	
 		          </md-checkbox>
 		      <div layout-wrap layout-gt-sm="row" >
 		        <div flex-gt-sm="50">
@@ -48,6 +44,8 @@
 		            Height: {{ data.cb2 }}
 		          </md-checkbox>
 		        </div>	
+		       </div>
+					<div layout-wrap layout-gt-sm="row" >
 		        <div flex-gt-sm="50">
 		          <md-checkbox ng-model="data.cb3" aria-label="Average" 
 		          	ng-true-value="'show graph'" ng-false-value="'disappear graph'"
